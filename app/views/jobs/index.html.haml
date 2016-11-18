@@ -1,4 +1,4 @@
-%h1 MMIBOARD
+%h1= link_to "MMIBOARD", root_path
 
 - @jobs.each do |job|
   %h2= link_to job.title, job
