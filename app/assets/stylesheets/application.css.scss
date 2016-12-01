@@ -12,6 +12,104 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: rgba(20, 18, 39, 1);
+  // background: -webkit-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+  // background:    -moz-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+  // background:     -ms-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+  // background:      -o-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+  // background:         linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+	font-family: 'HelveticaNeue', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+
+
+}
+
+
+
+//// AFFICHAGE JOB /////
+
+#jobs {
+	.job {
+		padding: 10px 10px;
+    margin: 5px 0 0 0px;
+    border: 1px solid rgba(250,250,250, 0.5);
+    border-radius: 10px;
+
+		h2 {
+			font-size: 2.5em;
+			font-weight: 300;
+			color: white;
+      margin: 0 0 0 10%;
+      display: inline-block;
+
+			a {
+				color: white;
+			}
+		}
+		p {
+			color: rgba(250,250,250, 0.7);
+      margin: 0 0 0 10%;
+      display: inline-block;
+      padding: 1.5% 3% 0 0;
+      float: right;
+		}
+	}
+}
+
+.job:hover {
+
+}
+
+#links {
+	margin-top: 2em;
+}
+
+.container {
+	margin-top: 28vh;
+}
+
+
+
+////// AFFICHAGE NEW JOB //////
+
+#new_job_show {
+	margin-top: -8vh;
+	color: #fff;
+}
+
+
+
+.form_horizontal {
+	color: #fff;
+	text-transform:uppercase;
+	padding-top: 10px;
+}
+
+label.control-label.string.optional {
+	 margin-top: 17px;
+}
+
+.btn-default {
+	margin: 0px 7px;
+	float: left;
+}
