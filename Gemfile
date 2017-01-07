@@ -2,12 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.6'
 # gem 'sqlite3', '~> 1.3', '>= 1.3.12'
-group :development do
-  gem 'sqlite3'
-end
-group :production do
-  gem 'pg'
-end
+gem 'pg', '~> 0.19.0'
 gem 'taps', '~> 0.3.24'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
