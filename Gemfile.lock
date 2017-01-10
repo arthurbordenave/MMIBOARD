@@ -174,7 +174,7 @@ DEPENDENCIES
   haml (~> 4.0, >= 4.0.7)
   jbuilder (~> 2.0)
   jquery-rails
-  pg (~> 0.19.0)
+  pg
   rails (= 4.2.6)
   rb-readline (~> 0.4.2)
   sass-rails (~> 5.0)
