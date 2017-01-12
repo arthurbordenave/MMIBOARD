@@ -1,6 +1,6 @@
 - @jobs.each do |job|
-  #job
-    %div#job_title
-      %h2= link_to job.title, job
-    %div#job_company
+  %a.job{ href: job_path(job) }
+    %div.job_title
+      %h2= job.title
+    %div.job_company
       %p= job.company
