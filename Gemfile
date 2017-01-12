@@ -15,6 +15,7 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'rb-readline', '~> 0.4.2'
 gem 'font-awesome-rails', '~> 4.7'
+gem 'annotate'
 
 
 gem 'sdoc', '~> 0.4.0', group: :doc
