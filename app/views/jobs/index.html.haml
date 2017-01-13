@@ -1,6 +1,7 @@
-- @jobs.each do |job|
-  %a.job{ href: job_path(job) }
-    %div.job_title
-      %h2= job.title
-    %div.job_company
-      %p= job.company
+#jobs-index
+  - @jobs.each do |job|
+    %a.job{ href: job_path(job) }
+      %div.job_title
+        %h2= job.title
+      %div.job_company
+        %p= job.company
